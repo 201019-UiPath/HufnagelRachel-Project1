@@ -1,0 +1,18 @@
+2020-11-11 08:19:39.849 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 08:26:10.444 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 08:28:00.109 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 08:29:54.783 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 08:31:56.147 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 08:33:01.512 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 10:35:21.705 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 10:39:31.127 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 10:40:07.158 -06:00 [INF] Customer tried to sign into an account the DNE.
+2020-11-11 10:40:39.766 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 12:32:58.351 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 12:33:36.942 -06:00 [INF] Customer tried to sign into an account the DNE.
+2020-11-11 12:34:48.677 -06:00 [INF] Customer tried to sign into an account the DNE.
+2020-11-11 12:35:04.360 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 12:35:40.193 -06:00 [INF] Customer rachel@gmail.com tried and failed to login.
+2020-11-11 12:36:10.558 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 15:13:53.647 -06:00 [INF] rachel@gmail.com has signed in
+2020-11-11 15:17:51.079 -06:00 [INF] rachel@gmail.com has signed in

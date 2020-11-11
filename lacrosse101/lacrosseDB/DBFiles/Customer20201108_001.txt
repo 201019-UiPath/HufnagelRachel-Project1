@@ -1,0 +1,8 @@
+2020-11-08 15:09:33.064 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 15:39:00.348 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 15:41:05.196 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 15:42:04.757 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 15:45:51.428 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 15:51:58.337 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 16:06:28.989 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 16:08:48.375 -06:00 [INF] rachelh@gmail.com has signed in

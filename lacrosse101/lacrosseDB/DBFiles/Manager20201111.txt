@@ -1,0 +1,22 @@
+2020-11-11 08:12:22.968 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 08:17:51.968 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 08:40:37.911 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 08:40:51.523 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:20:22.141 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 15:20:31.302 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:30:42.411 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 15:30:54.151 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:33:50.789 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 15:33:59.593 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:35:15.867 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 15:37:05.336 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 15:37:09.948 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:40:15.368 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 15:40:29.702 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:41:08.553 -06:00 [INF] skelly@gmail.com has signed in
+2020-11-11 15:41:15.903 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:42:37.039 -06:00 [INF] mcuban@gmail.com has signed in
+2020-11-11 15:42:41.794 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:44:08.013 -06:00 [INF] mcuban@gmail.com has signed in
+2020-11-11 15:44:17.023 -06:00 [INF] Manager tried to sign into an account the DNE.
+2020-11-11 15:45:44.895 -06:00 [INF] mcuban@gmail.com has signed in

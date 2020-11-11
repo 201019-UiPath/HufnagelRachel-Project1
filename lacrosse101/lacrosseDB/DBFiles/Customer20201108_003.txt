@@ -1,0 +1,2 @@
+2020-11-08 16:32:11.780 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 16:32:14.467 -06:00 [INF] Customer tried to sign into an account the DNE.

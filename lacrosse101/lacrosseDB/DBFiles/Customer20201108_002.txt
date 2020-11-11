@@ -1,0 +1,6 @@
+2020-11-08 16:25:13.497 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 16:28:24.659 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 16:28:58.723 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 16:30:44.757 -06:00 [INF] rachelh@gmail.com has signed in
+2020-11-08 16:30:47.120 -06:00 [INF] Customer tried to sign into an account the DNE.
+2020-11-08 16:32:05.134 -06:00 [INF] Customer tried to sign into an account the DNE.

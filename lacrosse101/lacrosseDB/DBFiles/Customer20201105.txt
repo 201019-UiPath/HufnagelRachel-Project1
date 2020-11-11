@@ -1,0 +1,2 @@
+2020-11-05 09:19:23.888 -06:00 [INF] Customer tried to sign into an account the DNE.
+2020-11-05 16:35:46.970 -06:00 [INF] Customer tried to sign into an account the DNE.
