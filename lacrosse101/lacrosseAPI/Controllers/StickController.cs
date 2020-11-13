@@ -56,6 +56,9 @@ namespace lacrosseAPI.Controllers
 
         [HttpPost("get")]
         [Produces("application/json")]
-        public IActionResult GetAllSticks
+        public IActionResult GetAllSticks()
+        {
+            return 1;
+        }
     }
 }
