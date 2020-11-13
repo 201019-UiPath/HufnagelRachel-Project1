@@ -133,6 +133,15 @@ namespace lacrosseDB.Repos
         /// A method are for retreving data from the database
         /// </summary>
         /// <returns></returns>
+        public List<Sticks> GetAllSticks()
+        {
+            List<Sticks> sticks = context.Product.Select(s => s).ToList();
+            return sticks;
+        }
+        /// <summary>
+        /// A method are for retreving data from the database
+        /// </summary>
+        /// <returns></returns>
         public List<Manager> GetAllManagers()
         {
             return context.Managers.Select(m => m).ToList();

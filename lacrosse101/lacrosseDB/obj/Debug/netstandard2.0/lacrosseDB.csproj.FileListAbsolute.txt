@@ -7,3 +7,12 @@ C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse10
 C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.csproj.CoreCompileInputs.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.dll
 C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.pdb
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\bin\Debug\netstandard2.0\lacrosseDB.deps.json
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\bin\Debug\netstandard2.0\lacrosseDB.dll
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\bin\Debug\netstandard2.0\lacrosseDB.pdb
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.csprojAssemblyReference.cache
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.AssemblyInfoInputs.cache
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.AssemblyInfo.cs
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.csproj.CoreCompileInputs.cache
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.dll
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseDB\obj\Debug\netstandard2.0\lacrosseDB.pdb

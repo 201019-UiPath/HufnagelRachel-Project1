@@ -25,6 +25,12 @@ namespace lacrosseLib
             prodRepo.DeleteStick(stick);
         }
 
+        public List<Sticks> GetAllSticks()
+        {
+            List<Sticks> stick = prodRepo.GetAllSticks();
+            return stick;
+        }
+
 
         public Sticks GetProductByStickId(int stickId)
         {

@@ -10,3 +10,15 @@ C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse10
 C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.csproj.CopyComplete
 C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.dll
 C:\Users\rache\Revature\MyRepo\HufnagelRachel_Project0\Lacrosse101_P0\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.pdb
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\bin\Debug\netstandard2.0\lacrosseLib.deps.json
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\bin\Debug\netstandard2.0\lacrosseLib.dll
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\bin\Debug\netstandard2.0\lacrosseLib.pdb
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\bin\Debug\netstandard2.0\lacrosseDB.dll
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\bin\Debug\netstandard2.0\lacrosseDB.pdb
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.csprojAssemblyReference.cache
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.AssemblyInfoInputs.cache
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.AssemblyInfo.cs
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.csproj.CoreCompileInputs.cache
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.csproj.CopyComplete
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.dll
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosse101\lacrosseLib\obj\Debug\netstandard2.0\lacrosseLib.pdb

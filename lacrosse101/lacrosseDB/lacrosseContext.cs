@@ -11,6 +11,10 @@ namespace lacrosseDB
     /// </summary>
     public class lacrosseContext : DbContext
     {
+
+        public lacrosseContext(DbContextOptions<lacrosseContext> options) : base(options) { }
+
+        public lacrosseContext() { }
         /// <summary>
         /// A table in the database for customers
         /// </summary>
@@ -83,8 +87,8 @@ namespace lacrosseDB
         /// helping to get rid of the one to many relationships
         /// </summary>
         /// <param name="modelBuilder"></param>
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
+        //protected override void OnModelCreating(ModelBuilder modelBuilder)
+        //{
             // var StickConverter1 = new EnumToStringConverter<Sticks.BrandType>();
             // //var StickConverter2 = new EnumToStringConverter<Sticks.StickType>();
             // var BallConverter = new EnumToStringConverter<Balls.ColorType>();
@@ -100,6 +104,6 @@ namespace lacrosseDB
             // modelBuilder.Entity<Balls>() 
             // .Property(b => b.colorType)
             // .HasConversion(BallConverter);
-        }
+       // }
     }
 }
