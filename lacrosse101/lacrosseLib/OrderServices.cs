@@ -6,7 +6,7 @@ using System;
 
 namespace lacrosseLib
 {
-    public class OrderServices
+    public class OrderServices : IOrderServices
     {
         private IOrderRepo orderRepo;
 
@@ -55,7 +55,8 @@ namespace lacrosseLib
             return orders;
         }
 
-        public void DeleteOrder(Orders order) {
+        public void DeleteOrder(Orders order)
+        {
             orderRepo.DeleteOrder(order);
         }
 

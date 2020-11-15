@@ -7,6 +7,7 @@ namespace lacrosseDB.Repos
     {
         void AddStick(Sticks stick);
         void DeleteStick(Sticks stick);
+        void UpdateStick(Sticks stick);
         List<Sticks> GetAllSticks();
         Sticks GetProductByStickId(int Id);
 

@@ -83,10 +83,7 @@ namespace lacrosseDB
             }
         }
 
-        /// <summary>
-        /// helping to get rid of the one to many relationships
-        /// </summary>
-        /// <param name="modelBuilder"></param>
+       
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
             // var StickConverter1 = new EnumToStringConverter<Sticks.BrandType>();

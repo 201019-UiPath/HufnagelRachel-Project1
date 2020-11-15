@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace lacrosseLib
 {
-    public class ManagerServices
+    public class ManagerServices : IManagerServices
     {
         private IManagerRepo managerRepo;
 

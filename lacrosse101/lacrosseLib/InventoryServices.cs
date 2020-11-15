@@ -5,20 +5,21 @@ using lacrosseDB.Models;
 
 namespace lacrosseLib
 {
-    public class InventoryServices
+    public class InventoryServices : IInventoryServices
     {
         private IInventoryRepo inventRepo;
 
-        public InventoryServices(IInventoryRepo inventRepo) {
+        public InventoryServices(IInventoryRepo inventRepo)
+        {
             this.inventRepo = inventRepo;
         }
 
-        public void AddInventory(Inventory inventory) 
+        public void AddInventory(Inventory inventory)
         {
-            inventRepo.AddToInventory(inventory); 
+            inventRepo.AddToInventory(inventory);
         }
 
-        public void UpdateInventory(Inventory inventory) 
+        public void UpdateInventory(Inventory inventory)
         {
             inventRepo.UpdateInventory(inventory);
         }
@@ -29,7 +30,7 @@ namespace lacrosseLib
             return inventory;
         }
 
-        public Inventory GetInventoryItemByLocationId(int locationId) 
+        public Inventory GetInventoryItemByLocationId(int locationId)
         {
             Inventory inventory = inventRepo.GetInventoryItemByLocationId(locationId);
             return inventory;
@@ -47,13 +48,13 @@ namespace lacrosseLib
             return inventory;
         }
 
-        public List<Inventory> GetAllOfInventoryByLocationId (int locationId) 
+        public List<Inventory> GetAllOfInventoryByLocationId(int locationId)
         {
             List<Inventory> inventoryAtLocation = inventRepo.GetAllOfInventoryByLocationId(locationId);
             return inventoryAtLocation;
         }
 
-        public void DeleteInventory(Inventory inventory) 
+        public void DeleteInventory(Inventory inventory)
         {
             inventRepo.DeleteInventory(inventory);
         }

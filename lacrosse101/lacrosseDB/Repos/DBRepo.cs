@@ -547,5 +547,11 @@ namespace lacrosseDB.Repos
         {
             return (Inventory)context.Inventory.Single(i => i.LocationId == locId && i.stickId == stickId);
         }
+
+        public void UpdateStick(Sticks stick)
+        {
+            context.Product.Update(stick);
+            context.SaveChanges();
+        }
     }
 }

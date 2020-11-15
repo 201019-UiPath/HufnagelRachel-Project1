@@ -11,6 +11,7 @@ namespace lacrosseWeb.Controllers
 {
     public class HomeController : Controller
     {
+        private const string url = "http://localhost:44387/";
         private readonly ILogger<HomeController> _logger;
 
         public HomeController(ILogger<HomeController> logger)

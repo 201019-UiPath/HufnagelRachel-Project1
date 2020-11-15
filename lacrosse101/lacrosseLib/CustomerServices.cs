@@ -4,26 +4,26 @@ using lacrosseDB.Models;
 
 namespace lacrosseLib
 {
-    public class CustomerServices
+    public class CustomerServices : ICustomerServices
     {
         private ICustomerRepo custRepo;
 
-        public CustomerServices(ICustomerRepo custRepo)   
+        public CustomerServices(ICustomerRepo custRepo)
         {
             this.custRepo = custRepo;
         }
 
-        public void AddCustomer(Customer customer) 
+        public void AddCustomer(Customer customer)
         {
             custRepo.AddCustomer(customer);
         }
 
-        public void UpdateCustomer(Customer customer) 
+        public void UpdateCustomer(Customer customer)
         {
             custRepo.UpdateCustomer(customer);
         }
 
-        public Customer GetCustomerByCustId(int custId) 
+        public Customer GetCustomerByCustId(int custId)
         {
             Customer customer = custRepo.GetCustomerByCustId(custId);
             return customer;
@@ -34,7 +34,7 @@ namespace lacrosseLib
             Customer customer = custRepo.GetCustomerByEmail(email);
             return customer;
         }
- 
+
         public List<Customer> GetAllCustomers()
         {
             List<Customer> customers = custRepo.GetAllCustomers();

@@ -49,7 +49,21 @@ namespace lacrosseLib
             {
                 if (cust.email == email)
                 {
-                    Console.WriteLine("The email is already being used by another customer, try again.");
+                    Console.WriteLine("The email is already being used by another Customer, try again.");
+                    return false;
+                }
+            }
+            return true;
+
+        }
+
+        public Boolean IsUniqueEmail(string email, List<Manager> mans)
+        {
+            foreach (Manager man in mans)
+            {
+                if (man.email == email)
+                {
+                    Console.WriteLine("The email is already being used by another Manager, try again.");
                     return false;
                 }
             }

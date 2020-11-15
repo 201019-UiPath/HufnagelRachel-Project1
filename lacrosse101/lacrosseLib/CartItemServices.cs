@@ -4,7 +4,7 @@ using lacrosseDB.Repos;
 
 namespace lacrosseLib
 {
-    public class CartItemServices
+    public class CartItemServices : ICartItemServices
     {
         private ICartItemsRepo repo;
 
@@ -18,7 +18,7 @@ namespace lacrosseLib
             repo.AddCartItem(cartItem);
         }
 
-        public void UpdateCartItem(CartItem cartItem) 
+        public void UpdateCartItem(CartItem cartItem)
         {
             repo.UpdateCartItem(cartItem);
         }
@@ -35,7 +35,7 @@ namespace lacrosseLib
             return cartItem;
         }
 
-        public CartItem GetCartItemByCustId(int custId) 
+        public CartItem GetCartItemByCustId(int custId)
         {
             CartItem cartItem = repo.GetCartItemByCustId(custId);
             return cartItem;

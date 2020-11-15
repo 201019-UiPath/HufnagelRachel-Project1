@@ -3,7 +3,7 @@ using lacrosseDB.Repos;
 
 namespace lacrosseLib
 {
-    public class CartServices
+    public class CartServices : ICartServices
     {
         private ICartRepo repo;
 
@@ -17,24 +17,24 @@ namespace lacrosseLib
             repo.AddCart(cart);
         }
 
-        public void UpdateCart(Cart cart) 
+        public void UpdateCart(Cart cart)
         {
             repo.UpdateCart(cart);
         }
 
-        public Cart GetCartByCartId(int cartId) 
+        public Cart GetCartByCartId(int cartId)
         {
             Cart cart = repo.GetCartByCartId(cartId);
             return cart;
         }
 
-        public Cart GetCartByCustId(int custId) 
+        public Cart GetCartByCustId(int custId)
         {
             Cart cart = repo.GetCartByCustId(custId);
             return cart;
         }
 
-        public void DeleteCart(Cart cart) 
+        public void DeleteCart(Cart cart)
         {
             repo.DeleteCart(cart);
         }

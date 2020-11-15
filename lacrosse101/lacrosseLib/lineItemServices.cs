@@ -4,7 +4,7 @@ using lacrosseDB.Repos;
 
 namespace lacrosseLib
 {
-    public class lineItemServices
+    public class lineItemServices : IlineItemServices
     {
         private ILineItemRepo repo;
 

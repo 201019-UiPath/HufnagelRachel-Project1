@@ -14,7 +14,7 @@ namespace lacrosseAPI.Controllers
     [ApiController]
     public class StickController : ControllerBase
     {
-        private readonly ProductServices productServices;
+        private readonly IProductServices productServices;
 
         public StickController(ProductServices productServices)
         {
@@ -38,7 +38,7 @@ namespace lacrosseAPI.Controllers
             }
         }
 
-        [HttpPost("delete")]
+        [HttpDelete("delete")]
         [Consumes("application/json")]
         [Produces("application/json")]
         public IActionResult DeleteStick(Sticks stick)
@@ -54,11 +54,48 @@ namespace lacrosseAPI.Controllers
             }
         }
 
-        [HttpPost("get")]
+        [HttpPut("edit")]
+        [Consumes("application/json")]
+        [Produces("application/json")]
+        public IActionResult UpdateStick(Sticks stick)
+        {
+            try
+            {
+                productServices.UpdateStick(stick);
+                return CreatedAtAction("UpdateStick", stick);
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
+        }
+
+        [HttpGet("get")]
         [Produces("application/json")]
         public IActionResult GetAllSticks()
         {
-            return 1;
+            try
+            {
+                return Ok(productServices.GetAllSticks());
+            }
+            catch (Exception)
+            {
+                return StatusCode(500);
+            }
+        }
+
+        [HttpGet("get/{Id}")]
+        [Produces("application/json")]
+        public IActionResult GetProductByStickId(int stickId)
+        {
+            try
+            {
+                return Ok(productServices.GetProductByStickId(stickId));
+            }
+            catch
+            {
+                return NotFound();
+            }
         }
     }
 }

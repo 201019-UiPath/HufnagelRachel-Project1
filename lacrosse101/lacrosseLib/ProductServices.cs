@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace lacrosseLib
 {
-    public class ProductServices
+    public class ProductServices : IProductServices
     {
         private IProductRepo prodRepo;
 
@@ -23,6 +23,11 @@ namespace lacrosseLib
         public void DeleteStick(Sticks stick)
         {
             prodRepo.DeleteStick(stick);
+        }
+
+        public void UpdateStick(Sticks stick)
+        {
+            prodRepo.UpdateStick(stick);
         }
 
         public List<Sticks> GetAllSticks()
