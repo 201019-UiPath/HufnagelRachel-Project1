@@ -19,21 +19,18 @@ namespace lacrosseAPI.Controllers
         private readonly ICartServices cartServices;
         private ValidInvalidServices validInvalidServices;
 
-        public HumanController(IManagerServices managerServices)
-        {
-            this.managerServices = managerServices;
-        }
 
-        public HumanController(ICustomerServices customerServices, ICartServices cartServices)
+        public HumanController(IManagerServices managerServices, ICustomerServices customerServices, ICartServices cartServices)
         {
             this.customerServices = customerServices;
             this.cartServices = cartServices;
+            this.managerServices = managerServices;
         }
 
         [HttpPost("addC")]
         [Consumes("application/json")]
         [Produces("application/json")]
-        [EnableCors("allowedOrigins")]
+       // [EnableCors("allowedOrigins")]
         public IActionResult AddCustomer(Customer customer)
         {
             try
@@ -132,10 +129,10 @@ namespace lacrosseAPI.Controllers
             }
         }
 
-        [HttpGet("get")]
+        [HttpGet("getC")]
         [Consumes("application/json")]
         [Produces("application/json")]
-        [EnableCors("allowedOrigins")]
+       // [EnableCors("allowedOrigins")]
         public IActionResult GetAllCustomers()
         {
             try

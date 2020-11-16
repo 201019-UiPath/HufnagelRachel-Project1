@@ -12,7 +12,7 @@ namespace lacrosseWeb.Controllers
 {
     public class StickController : Controller
     {
-        private const string url = "http://localhost:44387/";
+        private const string url = "http://localhost:44334/";
         private Customer customer;
         private Manager manager;
 

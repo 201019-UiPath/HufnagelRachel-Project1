@@ -17,7 +17,7 @@ namespace lacrosseWeb.Controllers
 {
     public class HomeController : Controller
     {
-        private const string url = "http://localhost:44387/";
+        private const string url = "http://localhost:44334/";
         private readonly ILogger<HomeController> _logger;
         public AlertServices alertServices { get; }
 
@@ -45,12 +45,16 @@ namespace lacrosseWeb.Controllers
                 {
                     client.BaseAddress = new Uri(url);
                     var responce = client.GetAsync($"customer/get?email={loginView.email}");
+
                     responce.Wait();
+
                     var result = responce.Result;
                     if (result.IsSuccessStatusCode)
                     {
                         var jsonString = result.Content.ReadAsStringAsync();
+
                         jsonString.Wait();
+
                         var verifedCustomer = JsonConvert.DeserializeObject<Customer>(jsonString.Result);
                         Log.Information($"Sucess, {verifedCustomer} information has been received");
                         if (verifedCustomer.email == loginView.email)
@@ -85,11 +89,13 @@ namespace lacrosseWeb.Controllers
                     client.BaseAddress = new Uri(url);
                     var responce = client.GetAsync($"manager/get?email={loginView.email}");
                     responce.Wait();
+
                     var result = responce.Result;
                     if (result.IsSuccessStatusCode)
                     {
                         var jsonString = result.Content.ReadAsStringAsync();
                         jsonString.Wait();
+
                         var verifedManager = JsonConvert.DeserializeObject<Customer>(jsonString.Result);
                         Log.Information($"Sucess, {verifedManager} information has been received");
                         if (verifedManager.email == loginView.email)
@@ -131,6 +137,7 @@ namespace lacrosseWeb.Controllers
                     var data = new StringContent(json, Encoding.UTF8, "application/json");
                     var responce = client.PostAsync("customer/add", data);
                     responce.Wait();
+
                     var result = responce.Result;
                     if (result.IsSuccessStatusCode)
                     {
@@ -161,6 +168,7 @@ namespace lacrosseWeb.Controllers
                     var data = new StringContent(json, Encoding.UTF8, "application/json");
                     var responce = client.PostAsync("manager/add", data);
                     responce.Wait();
+
                     var result = responce.Result;
                     if (result.IsSuccessStatusCode)
                     {
@@ -188,11 +196,13 @@ namespace lacrosseWeb.Controllers
                     client.BaseAddress = new Uri(url);
                     var response = client.GetAsync("location/getAll");
                     response.Wait();
+
                     var result = response.Result;
                     if (result.IsSuccessStatusCode)
                     {
                         var jsonString = result.Content.ReadAsStringAsync();
                         jsonString.Wait();
+
                         var locations = JsonConvert.DeserializeObject<List<Location>>(jsonString.Result);
                         var locationOptions = new List<SelectListItem>();
                         foreach (var l in locations)
@@ -215,7 +225,6 @@ namespace lacrosseWeb.Controllers
             Log.Information("Signing out");
             return View("Login");
         }
-
 
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

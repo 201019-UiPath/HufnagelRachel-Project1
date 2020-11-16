@@ -68,7 +68,7 @@ namespace lacrosseWeb
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=LoginC}/{Id?}");
+                    pattern: "{controller=Home}/{action=Login}/{Id?}");
             });
         }
     }

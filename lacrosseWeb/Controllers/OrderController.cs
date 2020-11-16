@@ -15,7 +15,7 @@ namespace lacrosseWeb.Controllers
 {
     public class OrderController : Controller
     {
-        private const string url = "http://localhost:44387/";
+        private const string url = "http://localhost:44334/";
         private Customer customer;
 
         public IActionResult GetReceipt(Order order)

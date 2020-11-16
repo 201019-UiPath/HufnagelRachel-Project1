@@ -84,7 +84,7 @@ namespace lacrosseAPI.Controllers
 
         [HttpGet("get/{locationId}/{stickId}")]
         [Produces("application/json")]
-        public IActionResult GetItemByLocationIdBookId(int locationId, int stickId)
+        public IActionResult GetItemByLocationIdStickId(int locationId, int stickId)
         {
             try
             {

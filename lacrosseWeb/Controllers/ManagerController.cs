@@ -16,7 +16,7 @@ namespace lacrosseWeb.Controllers
 {
     public class ManagerController : Controller
     {
-        private const string url = "http://localhost:44387/";
+        private const string url = "http://localhost:44334/";
         private Manager manager;
         private readonly IConfiguration config;
         private readonly AlertServices alertServices;

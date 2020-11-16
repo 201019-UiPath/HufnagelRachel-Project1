@@ -6,11 +6,11 @@
 <section id="cover" class="min-vh-100">
     <div id="cover-caption">
         <div class="container">
-            <div class="row text-white">
+            <div class="row text-black-50">
                 <div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mx-auto text-center form p-4">
-                    <h1 class="display-4 py-2 text-truncate">Welcome to Lacrosse101</h1>
+                    <h1 class="display-4 py-2 text-truncate">Log in Here</h1>
                     <div class="px-2">
-                        <form asp-action="Login" class="justify-content-center">
+                        <form asp-action="LoginC" class="justify-content-center">
                             <div class="form-group">
                                 @*<label asp-for="email"></label>*@
                                 <input asp-for="email" type="email" class="form-control shadow-lg" id="email" aria-describedby="emailHelp" placeholder="Enter Email Address">
@@ -18,7 +18,7 @@
                             <div class="form-group">
                                 <input type="submit" value="Sign in" class="btn btn-primary shadow-lg">
                             </div>
-                            <span><small>Don't have an account? @Html.ActionLink("Sign up", "Signup", "Home")!</small></span>
+                            <span><small> @Html.ActionLink("Sign up", "SignUp", "Home")!</small></span>
                         </form>
                     </div>
                 </div>

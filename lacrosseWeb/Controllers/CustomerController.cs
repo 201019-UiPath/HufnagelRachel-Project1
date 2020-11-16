@@ -15,7 +15,7 @@ namespace lacrosseWeb.Controllers
 {
     public class CustomerController : Controller
     {
-        private const string url = "http://localhost:44387/";
+        private const string url = "http://localhost:44334/";
         private Customer customer;
         private AlertServices alertServices;
         public CustomerController(AlertServices alertServices)
@@ -38,7 +38,7 @@ namespace lacrosseWeb.Controllers
                 {
                     client.BaseAddress = new Uri(url);
                     var responce = client.GetAsync($"inventory/get/{customer.locationId}");
-                    responce.Wait();
+                    //responce.Wait();
                     var result = responce.Result;
                     if (result.IsSuccessStatusCode)
                     {

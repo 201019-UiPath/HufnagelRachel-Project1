@@ -1,0 +1,17 @@
+﻿@model IEnumerable<lacrosseWeb.Models.Inventory>
+
+@{
+    ViewData["Title"] = "GetInventory";
+}
+
+<h1>Available Products</h1>
+<br />
+
+@*<partial name="CardView"  />*@
+
+<div class="container card-deck card-columns">
+    @foreach (var item in Model)
+    {
+        @Html.Partial("InventoryPartial", item);
+    }
+</div>

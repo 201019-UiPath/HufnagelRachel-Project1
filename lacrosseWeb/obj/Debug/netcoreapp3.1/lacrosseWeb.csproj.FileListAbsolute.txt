@@ -9,7 +9,6 @@ C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\net
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\lacrosseWeb.pdb
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\lacrosseWeb.Views.dll
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\lacrosseWeb.Views.pdb
-C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.csprojAssemblyReference.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.AssemblyInfoInputs.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.AssemblyInfo.cs
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.RazorAssemblyInfo.cache
@@ -136,5 +135,8 @@ C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\net
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\Serilog.dll
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.csproj.CoreCompileInputs.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginC.cshtml.g.cs
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\SignUpC.cshtml.g.cs
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Login.cshtml.g.cs
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Customers\AddCustomer.cshtml.g.cs
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Customers\GetInventory.cshtml.g.cs
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.csprojAssemblyReference.cache
