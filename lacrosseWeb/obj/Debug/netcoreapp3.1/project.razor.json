@@ -14407,6 +14407,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\Home\\LoginC.cshtml",
+      "TargetPath": "Views\\Home\\LoginC.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

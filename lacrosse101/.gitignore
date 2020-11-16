@@ -1,5 +1,5 @@
-#Connection strings file
-AppSettings.json
+# Connection strings file
+appSettings.json
 [Mm]Migrations/
 
 # Created by https://www.toptal.com/developers/gitignore/api/csharp,visualstudio,visualstudiocode

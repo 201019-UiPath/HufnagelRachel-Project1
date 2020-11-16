@@ -135,5 +135,7 @@ C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\net
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\System.Text.Json.dll
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\lacrosseDB.dll
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\lacrosseDB.pdb
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\netcoreapp3.1\Serilog.dll
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.csproj.CoreCompileInputs.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginC.cshtml.g.cs
