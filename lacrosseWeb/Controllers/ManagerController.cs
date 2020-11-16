@@ -131,20 +131,6 @@ namespace lacrosseWeb.Controllers
             return RedirectToAction("GetInventory", new { locationId = 1 });
         }
 
-        /*
-        [HttpGet]
-        public IActionResult ViewInventory(string search)
-        {
-            string apikey = config.GetConnectionString("GiantBombAPI");
-            var giantBomb = new GiantBombRestClient(apikey);
-            if (!String.IsNullOrEmpty(searchString))
-            {
-                var results = giantBomb.SearchForAllGames(searchString);
-                Log.Information("Successfully got inventory items");
-                return View(results);
-            }
-            return View(new List<GiantBomb.Api.Model.Game>());
-        }
-        */
+        
     }
 }

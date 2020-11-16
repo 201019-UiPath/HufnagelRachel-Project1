@@ -17,8 +17,6 @@ C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\net
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.TagHelpers.input.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.TagHelpers.output.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.RazorCoreGenerate.cache
-C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -139,3 +137,4 @@ C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\bin\Debug\net
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.csproj.CoreCompileInputs.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\lacrosseWeb.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\LoginC.cshtml.g.cs
+C:\Users\rache\Revature\MyRepo\HufnagelRachel-Project1\lacrosseWeb\obj\Debug\netcoreapp3.1\Razor\Views\Home\SignUpC.cshtml.g.cs

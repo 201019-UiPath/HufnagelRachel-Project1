@@ -14397,11 +14397,6 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
@@ -14417,13 +14412,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\Home\\SignUpC.cshtml",
+      "TargetPath": "Views\\Home\\SignUpC.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\rache\\Revature\\MyRepo\\HufnagelRachel-Project1\\lacrosseWeb\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
